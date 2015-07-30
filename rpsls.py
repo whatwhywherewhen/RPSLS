@@ -1,6 +1,5 @@
 # Rock-paper-scissors-lizard-Spock template
 
-
 # The key idea of this program is to equate the strings
 # "rock", "paper", "scissors", "lizard", "Spock" to numbers
 # as follows:
@@ -33,7 +32,6 @@ def name_to_number(name):
     # convert name to number using if/elif/else
     # don't forget to return the result!
 
-
 def number_to_name(number):
     # delete the following pass statement and fill in your code below
     if number == 0:
@@ -52,7 +50,6 @@ def number_to_name(number):
     # convert number to a name using if/elif/else
     # don't forget to return the result!
     
-
 def rpsls(player_choice): 
     # delete the following pass statement and fill in your code below
     print ""
@@ -85,8 +82,7 @@ def rpsls(player_choice):
     else:
         print "Sometimes no one wins!"
     # use if/elif/else to determine winner, print winner message
-
-    
+  
 # test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
 rpsls("rock")
 rpsls("Spock")
@@ -95,4 +91,3 @@ rpsls("lizard")
 rpsls("scissors")
 
 # always remember to check your completed program against the grading rubric
-
